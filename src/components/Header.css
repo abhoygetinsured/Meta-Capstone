@@ -1,0 +1,36 @@
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 50px;
+    align-items: center;
+    height: 7.5vh;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar.hidden {
+    transform: translateY(-100%); /* Hides the navbar */
+}
+
+.navbar.visible {
+    transform: translateY(0); /* Shows the navbar */
+}
+
+.nav-menu {
+    grid-column: 5 / 11;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin: 0 20px;
+    font-size: 1.4rem;
+}
+
+.logo-image {
+    grid-column: 3 / 4;
+}

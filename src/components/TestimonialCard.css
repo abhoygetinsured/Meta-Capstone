@@ -1,0 +1,39 @@
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.testimonial-photo {
+    border-radius: 100%;
+    width: 8vw;
+    height: 8vw;
+    /* margin: 0 auto; */
+}
+
+.star-container {
+    margin: 15px;
+}
+
+.star-container img {
+    margin: 0 2px;
+}
+
+.testimonial-title {
+    font-family: "Karla", sans-serif;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.testimonial-desc {
+    font-family: "Karla", sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+}

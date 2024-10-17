@@ -1,0 +1,38 @@
+.main-hero-section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 50px;
+    justify-content: center;
+    background-color: #495e57;
+    height: 92.5vh;
+    align-items: center;
+}
+
+.main-hero-left-div {
+    grid-column: 3 / 7;
+    color: white;
+    text-align: justify;
+    padding-bottom: 100px;
+}
+
+.main-hero-left-div h1 {
+    font-size: 6rem;
+    color: #f4ce14;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.main-hero-left-div p {
+    font-size: 2.3rem;
+}
+
+.main-hero-right-div {
+    grid-column: 8 / 11;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-hero-right-div img {
+    height: 30vw;
+    border-radius: 16px;
+}
