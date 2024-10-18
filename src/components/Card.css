@@ -5,11 +5,11 @@
     overflow: hidden;
     background-color: rgb(209, 209, 209);
     font-family: "Karla", sans-serif;
-    margin: 20px 0;
+    margin: 20px 5px;
 }
 
 .card-image-div {
-    /* height: 40vh; */
+    height: 380px;
     width: 380px;
     min-width: 380px;
 }
@@ -57,4 +57,41 @@
     margin: 0;
     font-size: 1.4rem;
     font-weight: 400;
+}
+
+
+@media all and (max-width: 1440px) {
+    .card {
+        width: 300px;
+        height: 520px;
+    }
+    
+    .card-image-div {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .card {
+        width: 220px;
+        height: 400px;
+    }
+    
+    .card-image-div {
+        height: 220px;
+        width: 220px;
+    }
+
+    .title-price p {
+        font-size: 1.1rem;
+    }
+
+    .card-desc p {
+        font-size: 0.7rem;
+    }
+
+    .order-bascet-icon p {
+        font-size: 1rem;
+    }
 }

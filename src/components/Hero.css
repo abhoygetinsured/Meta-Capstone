@@ -36,3 +36,48 @@
     height: 30vw;
     border-radius: 16px;
 }
+
+
+@media all and (max-width: 1440px) {
+    .main-hero-left-div h1 {
+        font-size: 4rem;
+    }
+
+    .main-hero-left-div p {
+        font-size: 1.8rem;
+    }
+
+    .main-hero-right-div img {
+        height: 40vw;
+        border-radius: 16px;
+        margin-bottom: 100px;
+    }
+}
+
+
+
+@media all and (max-width: 768px) {
+    .main-hero-left-div {
+        grid-column: 2 / 11;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-hero-left-div p {
+        margin: 10px;
+    }
+
+    .main-hero-right-div {
+        grid-column: 2 / 11;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-hero-right-div img {
+        height: 50vw;
+        border-radius: 16px;
+        margin-bottom: 100px;
+    }
+    
+}

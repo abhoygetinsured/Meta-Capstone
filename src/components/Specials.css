@@ -3,6 +3,7 @@
     grid-template-columns: repeat(12, 1fr);
     column-gap: 50px;
     height: 20vh;
+    min-height: fit-content;
     background-color: rgb(240, 240, 240);
 }
 
@@ -33,7 +34,19 @@
 .card-holder-in {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     grid-column: 3 / 11;
 }
 
+@media all and (max-width: 1440px) {
+    .specials-topbar p {
+        font-size: 4rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .specials-topbar {
+        flex-direction: column;
+        text-align: center;
+    }
+}

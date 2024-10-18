@@ -10,11 +10,10 @@ export default function Testimonials() {
         <p className="text2">Read What Others</p>
         <p className="text2">Have To Say</p>
         <div className="testimonial-holder">
-            <TestimonialCard />
-            <TestimonialCard />
-            <TestimonialCard />
-            <TestimonialCard />
-
+          <TestimonialCard />
+          <TestimonialCard />
+          <TestimonialCard />
+          <TestimonialCard />
         </div>
       </article>
     </>

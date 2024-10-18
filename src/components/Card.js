@@ -18,9 +18,7 @@ export default function Card() {
           </div>
           <div className="card-desc">
             <p>
-              The famous greek salad of crispy lettuce, peppers, olives, and our
-              Chicago style feta cheese, garnished with crunchy garlic and
-              rosemary croutons.
+              The famous greek salad of crispy lettuce, peppers, olives, and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.
             </p>
           </div>
           <div className="order-bascet-icon">
