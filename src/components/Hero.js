@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css';
 import Button from './Button';
+import RestaurantImage from '../assets/restauranfood.jpg'
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
             <Button text="Reserve Table" width="200px"/>
         </div>
         <div className='main-hero-right-div'>
-            <img src="https://little-lemon-booking-website.vercel.app/static/media/restaurantfood.e8abf5b772b6817189aa.jpg" alt='Bruchetta'/>
+            <img src={RestaurantImage} alt='Bruchetta'/>
         </div>
     </article>
   )

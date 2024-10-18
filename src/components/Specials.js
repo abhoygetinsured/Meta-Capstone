@@ -17,9 +17,8 @@ export default function Specials() {
       <div className="card-holder-out">
         <div className="card-holder-in">
             {specialsMenu.map((dish) => {
-                return <Card />
+                return <Card data={dish}/>
             })}
-          <Card />
         </div>
       </div>
     </>

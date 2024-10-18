@@ -2,23 +2,21 @@ import React from "react";
 import "./Card.css";
 import Basket from "../assets/Basket.svg";
 
-import Brushetta from "../assets/bruchetta.svg";
-
-export default function Card() {
+export default function Card(props) {
   return (
     <>
       <div className="card">
         <div className="card-image-div">
-          <img src={Brushetta} alt="food" className="card-image"/>
+          <img src={props?.data?.image} alt="food" className="card-image"/>
         </div>
         <div>
           <div className="title-price">
-            <p>Greek Salad</p>
-            <p className="price"><strong>$ 12.99</strong></p>
+            <p>{props?.data?.name}</p>
+            <p className="price"><strong>$ {props?.data?.price}</strong></p>
           </div>
           <div className="card-desc">
             <p>
-              The famous greek salad of crispy lettuce, peppers, olives, and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.
+                {props?.data?.description}
             </p>
           </div>
           <div className="order-bascet-icon">
